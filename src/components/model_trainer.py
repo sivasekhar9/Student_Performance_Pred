@@ -111,12 +111,7 @@ class ModelTrainer:
             r2_square = r2_score(y_test, predicted)
             print(f" R² Score on Test Data: {r2_square}")
             return r2_square
-            
-            
-
-
-
-            
+                 
         except Exception as e:
             raise CustomException(e,sys)
             
